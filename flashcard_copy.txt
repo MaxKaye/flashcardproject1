@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <link rel="stylesheet" href="flashcard.css"/>
+    <title> "我 &hearts; 闪卡" </title>
+    <script src="flashcard.js"></script>
+    <script src="js/flashcard.js" type="text/javascript"></script>
+  </head>
+
+<body>
+  <h1>你好，欢迎光临中英文闪卡网站</h1>
+  <div class="convert">
+    <form id="form">
+      Input Character: <input type="text" name="characters">
+      <input type="submit" value="Translate" onclick="prompt('Hello, welcome to Chinese English flashcard translator! Play with these words to create your own sentence.')"><br>
+
+      English: <output type="text" id="type-word"></output><br>
+      Pinyin: <output type="text" id="type-word"></output><br>
+
+    </form>
+
+
+
+<br><br><br><br><br><br><br><br>
+
+  Chinese Character: <input type="text" id="myText" value="你好">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction()">Translate</button><br><br>
+
+  Pinyin: <input type="text" id="myText1" value="你好">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction1()">Translate</button><br><br><br><br>
+
+  Chinese Character: <input type="text" id="myText2" value="早上好">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction2()">Translate</button><br><br>
+
+  Pinyin: <input type="text" id="myText3" value="早上好">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction3()">Translate</button><br><br><br><br>
+
+  Chinese Character: <input type="text" id="myText4" value="吃饭">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction4()">Translate</button><br><br>
+
+  Pinyin: <input type="text" id="myText5" value="吃饭">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction5()">Translate</button><br><br><br><br>
+
+  Chinese Character: <input type="text6" id="myText6" value="喜欢">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction6()">Translate</button><br><br>
+
+  Pinyin: <input type="text" id="myText7" value="喜欢">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction7()">Translate</button><br><br><br><br>
+
+  Chinese Character: <input type="text" id="myText8" value="名字">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction8()">Translate</button><br><br>
+
+  Pinyin: <input type="text" id="myText9" value="名字">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction9()">Translate</button><br><br><br><br>
+
+  Chinese Character: <input type="text" id="myText10" value="什么">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction10()">Translate</button><br><br>
+
+  Pinyin: <input type="text" id="myText11" value="什么">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction11()">Translate</button><br><br><br><br>
+
+
+  <script>
+  function myFunction() {
+      document.getElementById("myText").value = "Hello";
+  }
+  function myFunction1() {
+      document.getElementById("myText1").value = "ni3hao3";
+  }
+  function myFunction2() {
+      document.getElementById("myText2").value = "Good Morning"; //want to have function here that is able to change morning to evening and afternoon
+  }
+  function myFunction3() {
+      document.getElementById("myText3").value = "zao3shanghao3";
+  }
+  function myFunction4() {
+      document.getElementById("myText4").value = "Breakfast";
+  }
+  function myFunction5() {
+      document.getElementById("myText5").value = "zao3fan4";
+  }
+  function myFunction6() {
+      document.getElementById("myText6").value = "to like or be fond of";
+  }
+  function myFunction7() {
+      document.getElementById("myText7").value = "xi3huan";
+  }
+  function myFunction8() {
+      document.getElementById("myText8").value = "name";
+  }
+  function myFunction9() {
+      document.getElementById("myText9").value = "ming2zi";
+  }
+function myFunction10() {
+    document.getElementById("myText10").value = "what/who/anything/something";
+}
+function myFunction11() {
+    document.getElementById("myText11").value = "shen2me";
+}
+  </script>
+
+
+</body>
+</html>

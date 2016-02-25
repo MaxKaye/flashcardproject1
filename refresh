@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <link rel="stylesheet" href="flashcard.css"/>
+    <title> "我 &hearts; 闪卡" </title>
+    <script src="flashcard.js"></script>
+  </head>
+
+<body>
+  <h1>你好，欢迎光临中英文闪卡网站</h1>
+  <div class="convert">
+    <form id="form">
+      Input Character: <input type="text" name="characters">
+      <input type="submit" value="Translate" onclick="prompt('Hello, welcome to Chinese English flashcard translator! Play with these words to create your own sentence.')"><br>
+
+     English: <output type="text" id="type-word"></output><br>
+      Pinyin: <output type="text" id="type-word"></output><br>
+
+    </form>
+
+
+<br><br><br><br><br><br><br><br>
+
+  <span id ="test0">Chinese Character</span>: <input type="text" id="myText" value="你好">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction()">Translate</button><br><br>
+  <button onclick="myFunctiona()">Refresh</button><br><br>
+
+  <span id ="test1">Pinyin</span>: <input type="text" id="myText1" value="你好">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction1()">Translate</button><br><br>
+  <button onclick="myFunction1a()">Refresh</button><br><br><br><br>
+
+  <span id ="test2">Chinese Character</span>: <input type="text" id="myText2" value="早上好">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction2()">Translate</button><br><br>
+  <button onclick="myFunction2a()">Refresh</button><br><br>
+
+  <span id ="test3">Pinyin</span>: <input type="text" id="myText3" value="早上好">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction3()">Translate</button><br><br>
+  <button onclick="myFunction3a()">Refresh</button><br><br><br><br>
+
+  <span id ="test4">Chinese Character</span>: <input type="text" id="myText4" value="吃饭">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction4()">Translate</button><br><br>
+  <button onclick="myFunction4a()">Refresh</button><br><br>
+
+  <span id ="test5">Pinyin</span>: <input type="text" id="myText5" value="早饭">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction5()">Translate</button><br><br>
+  <button onclick="myFunction5a()">Refresh</button><br><br><br><br>
+
+  <span id ="test6">Chinese Character</span>: <input type="text6" id="myText6" value="喜欢">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction6()">Translate</button><br><br>
+  <button onclick="myFunction6a()">Refresh</button><br><br>
+
+  <span id ="test7">Pinyin</span>: <input type="text" id="myText7" value="喜欢">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction7()">Translate</button><br><br>
+  <button onclick="myFunction7a()">Refresh</button><br><br><br><br>
+
+  <span id ="test8">Chinese Character</span>: <input type="text" id="myText8" value="名字">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction8()">Translate</button><br><br>
+  <button onclick="myFunction8a()">Refresh</button><br><br>
+
+  <span id ="test9">Pinyin</span>: <input type="text" id="myText9" value="名字">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction9()">Translate</button><br><br>
+  <button onclick="myFunction9a()">Refresh</button><br><br><br><br>
+
+  <span id ="test10">Chinese Character</span>: <input type="text" id="myText10" value="什么">
+  <p>Click the button to translate into English.</p>
+  <button onclick="myFunction10()">Translate</button><br><br>
+  <button onclick="myFunction10a()">Refresh</button><br><br>
+
+  <span id ="test11">Pinyin</span>: <input type="text" id="myText11" value="什么">
+  <p>Click the button to translate into pinyin.</p>
+  <button onclick="myFunction11()">Translate</button><br><br>
+  <button onclick="myFunction11a()">Refresh</button><br><br><br><br>
+
+
+  <script>
+  function myFunction() {
+      document.getElementById("myText").value = "Hello";
+      document.getElementById("test0").innerText ="English Version";
+  }
+  function myFunctiona() {
+      document.getElementById("myText").value = "你好";
+      document.getElementById("test0").innerText ="Chinese Character";
+  }
+  function myFunction1() {
+      document.getElementById("myText1").value = "ni3hao3";
+      document.getElementById("test1").innerText ="Pronunciation";
+  }
+  function myFunction1a() {
+      document.getElementById("myText1").value = "你好";
+      document.getElementById("test1").innerText ="Chinese Character";
+  }
+
+  function myFunction2() {
+      document.getElementById("myText2").value = "Good Morning";
+      document.getElementById("test2").innerText ="English Version"; //want to have function here that is able to change morning to evening and afternoon
+  }
+  function myFunction2a() {
+      document.getElementById("myText2").value = "早上好";
+      document.getElementById("test2").innerText ="Chinese Character"; //want to have function here that is able to change morning to evening and afternoon
+  }
+  function myFunction3() {
+      document.getElementById("myText3").value = "zao3shanghao3";
+      document.getElementById("test3").innerText ="Pronunciation";
+  }
+  function myFunction3a() {
+      document.getElementById("myText3").value = "早上好";
+      document.getElementById("test3").innerText ="Chinese Character";
+  }
+  function myFunction4() {
+      document.getElementById("myText4").value = "Breakfast";
+      document.getElementById("test4").innerText ="English Version";
+  }
+  function myFunction4a() {
+      document.getElementById("myText4").value = "早饭";
+      document.getElementById("test4").innerText ="Chinese Character";
+    }
+  function myFunction5() {
+      document.getElementById("myText5").value = "zao3fan4";
+      document.getElementById("test5").innerText ="Pronunciation";
+  }
+  function myFunction5a() {
+      document.getElementById("myText5").value = "早饭";
+      document.getElementById("test5").innerText ="Chinese Character";
+  }
+  function myFunction6() {
+      document.getElementById("myText6").value = "to like or be fond of";
+      document.getElementById("test6").innerText ="English Version";
+  }
+  function myFunction6a() {
+      document.getElementById("myText6").value = "喜欢";
+      document.getElementById("test6").innerText ="Chinese Character";
+  }
+  function myFunction7() {
+      document.getElementById("myText7").value = "xi3huan";
+      document.getElementById("test7").innerText ="Pronunciation";
+  }
+  function myFunction7a() {
+      document.getElementById("myText7").value = "喜欢";
+      document.getElementById("test7").innerText ="Chinese Character";
+  }
+  function myFunction8() {
+      document.getElementById("myText8").value = "name";
+      document.getElementById("test8").innerText ="English Version";
+  }
+  function myFunction8a() {
+      document.getElementById("myText8").value = "名字";
+      document.getElementById("test8").innerText ="Chinese Character";
+  }
+  function myFunction9() {
+      document.getElementById("myText9").value = "ming2zi";
+      document.getElementById("test9").innerText ="Pronunciation";
+  }
+  function myFunction9a() {
+      document.getElementById("myText9").value = "名字";
+      document.getElementById("test9").innerText ="Chinese Character";
+  }
+function myFunction10() {
+    document.getElementById("myText10").value = "what/who/anything/something";
+    document.getElementById("test10").innerText ="English Version";
+}
+function myFunction10a() {
+    document.getElementById("myText10").value = "什么";
+    document.getElementById("test10").innerText ="Chinese Character";
+}
+function myFunction11() {
+    document.getElementById("myText11").value = "shen2me";
+    document.getElementById("test11").innerText ="Pronunciation";
+}
+function myFunction11a() {
+    document.getElementById("myText11").value = "什么";
+    document.getElementById("test11").innerText ="Chinese Character";
+}
+
+  </script>
+
+
+</body>
+</html>
