@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-
+<!-- mms: Where should this style tag live (head/body)? -->
 <style>
+  <!-- mms: recommend moving this to a spearate css file and referencing that file here. -->
 body {
   font-family: helvetica, sans-serif;
   margin: 50px auto;
@@ -39,6 +40,7 @@ div {
      <meta charset="utf-8">
     <style><link rel="stylesheet" href="flashcard.css"/></style>
     <title> "我 &hearts; 闪卡" </title>
+    <!-- mms: recommend you comment out the unwanted code in this file, rather than disable the whole file. -->
     <!-- <script src="flashcard.js"></script> -->
   </head>
 
@@ -52,6 +54,7 @@ div {
     </form>
 
     <script type="text/javascript">
+    <!-- mms: a floating comment? -->
     <!--
 
     subject = new Array("你", "我");
@@ -176,6 +179,7 @@ div {
 
   <span id ="test11">Pinyin</span>: <input type="text" id="myText11" value="什么">
   <p>Click the button to translate into pinyin.</p>
+  <!-- mms: recommend you utilize addEventHandler instead. -->
   <button onclick="myFunction11()">Translate</button>
   <button onclick="myFunction11a()">Refresh</button><br><br><br><br>
 </div>
@@ -183,7 +187,9 @@ div {
   <script>
 
   function myFunction() {
+      // mms: consider using the item that was clicked, rather than retrieving an element
       document.getElementById("myText").value = "Hello";
+      // mms: consider gathering this data from an array of information.
       document.getElementById("test0").innerText ="English Version";
   }
 
@@ -283,6 +289,7 @@ function myFunction11a() {
   </script>
 
 <div>Did you have a good experience using these flashcards?<div>
+  <!-- php? Interesting.  Did you work on supporting this form subission? -->
   <form action="action_page.php">
   <input type="radio" name="satisfaction" value="Yes" checked>对，很酷(dui4，hen3ku4)👌<br>
   <input type="radio" name="satisfaction" value="Yes" checked>对, but more words please<br>
